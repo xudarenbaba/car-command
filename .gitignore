@@ -9,7 +9,6 @@ __pycache__/
 # 训练产出
 output/
 llama.cpp/
-data/
 models/
 final_adapter/
 merged_model_fp16/

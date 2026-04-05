@@ -1,0 +1,428 @@
+{"instruction": "解析指令", "input": "低速跟在我后面", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "帮我一点一点往前开", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请慢慢左转", "output": "{\"action\":\"turn_left\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "跟着我", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请保持静止", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "缓一点右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在小车往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请开始巡逻", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你快点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在别太快跟着我走", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "停止", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请危险，立刻停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "低速前进", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "倒车", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在慢慢跟上来就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "回充电桩", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "小车跟上", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请别太快跟着我走", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请跟住我的速度", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻绕着场地转一圈", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请停一下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "立刻向左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "麻烦你先停这", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "现在快跟着我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "停一下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请转个身", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请开慢点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "找地方停好", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我跟住我的速度", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你立定", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我停一下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你后退", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "再开快一点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "在这等我", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请泊车", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "保持跟随", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我别掉队跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "掉头", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "开始巡逻", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你原地待命", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我小车往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "从左边绕过去", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我匀速前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你小车往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻绕开前面障碍", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请巡逻模式", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "保持跟在我后面", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请按喇叭", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "跟住我的速度", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "麻烦你全速前进", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "急停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "帮我急停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我巡逻模式", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你低速后退", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "靠过来", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "快点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请先别开了", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在往右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我原地待命", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "开慢点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "帮我在这附近转转", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我慢慢跟上来就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "小车左转九十度", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请低速跟在我后面", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立定", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我小车左转九十度", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻慢慢跟上来就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "转个身", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻匀速前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请返回起点", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在快点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请驻车", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请小车状态怎么样", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我自检一下", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请跟着我", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "麻烦你快跟着我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请嘀一下", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请全速前进", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请回基地", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "别掉队跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你跟着我", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "慢慢跟上来就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "跟我走", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "麻烦你缓一点右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你躲开那个人", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请一点一点往前开", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我低速前进", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻小车往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请绕着场地转一圈", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "别撞上去", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "先别开了", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在绕开前面障碍", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请绕开前面障碍", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻后退", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请再开快一点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "帮我提醒前面的人", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请汇报一下电量", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请缓一点左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在打右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻回家充电", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请小车往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请小车右转一点点", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请打右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "麻烦你把速度降下来", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在往左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "慢慢左转", "output": "{\"action\":\"turn_left\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "巡逻模式", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在后退", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "立刻全速前进", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "麻烦你在这附近转转", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请后退", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "小车过来", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "低速后退", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "往前挪一点", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你打左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我慢慢跟着我", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请全速跟紧", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "汇报一下电量", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "帮我小车你跟着我就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "继续往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "在这附近转转", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我慢慢左转", "output": "{\"action\":\"turn_left\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "慢慢跟着我", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请保持跟随", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请保持跟在我后面", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请向后开", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "危险，立刻停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "调个头往回开", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请立定", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "麻烦你马上停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "提醒前面的人", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你开慢点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "立刻在这附近转转", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻往左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在往前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请紧急停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "往后退一点", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我靠边停", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "后退", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "往左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请跟上来别磨蹭", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请离我近一点", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请调个头往回开", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我往右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在跟车模式开一下", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "立刻刹停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "帮我小车自己回充吧", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我转个身", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我立定", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "不要走了", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "快跟着我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "现在全速前进", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "刹车", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请打左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "小车自己回充吧", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻躲开那个人", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请小车左转九十度", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你保持跟在我后面", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请低速后退", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在绕着场地转一圈", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "U型转弯", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "缓一点左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你匀速前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "向后开", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你跟车模式开一下", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请跟车模式开一下", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请小车自己回充吧", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我慢慢倒车", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请小车跟上", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "请提醒前面的人", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请别太冲", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请赶紧跟上来", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "麻烦你慢一点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "立刻靠边停", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "停到路边", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "别太快跟着我走", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "麻烦你在这等我", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请暂停行驶", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "停下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻跟着我", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "加速", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "减速", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在跟着我", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我马上停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "向右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我U型转弯", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "往前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我慢一点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你猛一点往前冲", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "把速度降下来", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我跟车模式开一下", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你打右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请别动", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在原地待命", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "追上我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "请回充电桩", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我现在还有多少电", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "麻烦你U型转弯", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我绕开前面障碍", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "现在还有多少电", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我躲开那个人", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请缓一点右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻往前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "麻烦你保持跟随", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请一直往前", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我停下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻跟车模式开一下", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我先停这", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我先别开了", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "帮我缓一点右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你停一下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "一直往前", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "小车右转一点点", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我小车停下，我要拍照", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你绕着场地转一圈", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "猛一点往前冲", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "帮我把速度降下来", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我刹车", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你回家充电", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "停住", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你刹车", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "小车状态怎么样", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "提点速", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请快点往前开", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请匀速前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请在这附近转转", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你往左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我后退", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请慢慢往前蹭", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请继续往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在躲开那个人", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "麻烦你故障有没有", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "跟车模式开一下", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻别太快跟着我走", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请小车停下，我要拍照", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在开慢点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "快点往前开", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请停下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请停住", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "全速跟紧", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "请快跟着我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "一点一点往前开", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我紧跟我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "故障有没有", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我打左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请先停这", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "向左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请自己开回去", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "全速前进", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请减速", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "自检一下", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "暂停行驶", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "匀速前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "回基地", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我一直往前", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "躲开那个人", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请慢慢倒车", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你往右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你慢慢跟上来就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请向右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "现在向左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "立刻低速后退", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请立刻刹停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我汇报一下电量", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "马上停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请自检一下", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请靠过来", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请原地待命", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请猛一点往前冲", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "小车停下，我要拍照", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请停到路边", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "自己开回去", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我跟我走", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "回家充电", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我开始巡逻", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请朝前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "贴着我走", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在低速后退", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "泊车", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我不要走了", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "保持静止", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请掉头", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请把速度降下来", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请小车你跟着我就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "慢一点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我往前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "麻烦你慢慢左转", "output": "{\"action\":\"turn_left\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "帮我快跟着我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "麻烦你靠边停", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "帮我在这等我", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "麻烦你小车自己回充吧", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请故障有没有", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请找地方停好", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请别撞上去", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请直行", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请躲开那个人", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你一直往前", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "原地待命", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我往左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我小车状态怎么样", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请往后退一点", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "别太冲", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "现在靠边停", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请现在还有多少电", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我别撞上去", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "别动", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "朝前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请停止", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "请慢慢跟着我", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请别掉队跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请小车过来", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我别动", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "绕开前面障碍", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你停下", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "紧跟我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "帮我危险，立刻停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "跟上来别磨蹭", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "打右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "小车你跟着我就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "嘀一下", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "帮我找地方停好", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请贴着我走", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你别太快跟着我走", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请向左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我减速", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请刹车", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "喂，小车，快跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请回家充电", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我向左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "返回起点", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请紧跟我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "请在这等我", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "麻烦你快点往前开", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "麻烦你向左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请往右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在小车跟上", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请保持在我侧后方", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "请马上停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "往右拐", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在回家充电", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我故障有没有", "output": "{\"action\":\"query_status\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请跟我走", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我开慢点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你直行", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "现在先停这", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请U型转弯", "output": "{\"action\":\"turn_around\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我快点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我低速后退", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你往前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "现在危险，立刻停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "靠边停", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请低速前进", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "驻车", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请慢慢跟上来就行", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请快点", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "慢慢往前蹭", "output": "{\"action\":\"forward\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我停到路边", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我快点往前开", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "麻烦你危险，立刻停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "小车往前走", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "慢慢右转", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我按喇叭", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "跟在我身后开", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "保持在我侧后方", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我跟着我", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "立刻跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我绕着场地转一圈", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我小车跟上", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你绕开前面障碍", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "帮我全速前进", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "帮我保持跟随", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请加速", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我猛一点往前冲", "output": "{\"action\":\"forward\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "离我近一点", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "现在在这附近转转", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请提点速", "output": "{\"action\":\"speed_up\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "现在匀速前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "现在右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "按喇叭", "output": "{\"action\":\"honk\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我直行", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请往左拐", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你小车跟上", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "紧急停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "先停这", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "直行", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "小车快跟上我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "打左转", "output": "{\"action\":\"turn_left\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请倒车", "output": "{\"action\":\"backward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请追上我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "赶紧跟上来", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "立刻危险，立刻停车", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "慢慢倒车", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "麻烦你别掉队跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我打右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我保持跟在我后面", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请往前开", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "请跟在我身后开", "output": "{\"action\":\"follow\",\"speed\":\"medium\"}"}
+{"instruction": "解析指令", "input": "帮我停住", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "右转", "output": "{\"action\":\"turn_right\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请从左边绕过去", "output": "{\"action\":\"avoid\",\"speed\":\"low\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "前进", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请小车快跟上我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我慢慢右转", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "请慢慢右转", "output": "{\"action\":\"turn_right\",\"speed\":\"low\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "麻烦你慢慢倒车", "output": "{\"action\":\"backward\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请急停", "output": "{\"action\":\"emergency_stop\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "绕着场地转一圈", "output": "{\"action\":\"patrol\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请往前挪一点", "output": "{\"action\":\"forward\",\"speed\":\"medium\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "你是车载助手，请输出动作字段", "input": "帮我回家充电", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请不要走了", "output": "{\"action\":\"stop\",\"speed\":\"zero\"}"}
+{"instruction": "解析指令", "input": "请慢一点", "output": "{\"action\":\"slow_down\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "立刻快跟着我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
+{"instruction": "解析指令", "input": "帮我回充电桩", "output": "{\"action\":\"return_home\",\"speed\":\"medium\"}"}
+{"instruction": "识别语音里的行驶意图并输出 JSON", "input": "请靠边停", "output": "{\"action\":\"park\",\"speed\":\"zero\"}"}
+{"instruction": "将用户话转为小车控制 JSON", "input": "帮我别太快跟着我走", "output": "{\"action\":\"follow\",\"speed\":\"low\"}"}
+{"instruction": "解析指令", "input": "请喂，小车，快跟紧我", "output": "{\"action\":\"follow\",\"speed\":\"high\"}"}
