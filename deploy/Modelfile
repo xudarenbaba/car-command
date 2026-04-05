@@ -1,0 +1,6 @@
+FROM ./robot_q4_km.gguf
+
+PARAMETER num_ctx 1024
+PARAMETER temperature 0.1
+
+SYSTEM "你是一个机器人控制中心。将用户话语解析为JSON，不要输出多余解释。"

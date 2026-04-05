@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# 训练产出
+output/
+llama.cpp/
+data/
+models/
+final_adapter/
+merged_model_fp16/
+*.gguf
+*.log
+
+# Hugging Face 缓存（若希望提交代码但不含权重，可取消下面注释）
+# .cache/

@@ -1,0 +1,17 @@
+
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
+trl
+sentencepiece
+
+# protobuf 一般由 transformers/tokenizers 间接安装；勿单独锁版本，避免非常规索引下「versions: none」
+
+# 小车端 / 调用 Ollama HTTP API
+requests
+
+# 可选：下载模型
+huggingface_hub
